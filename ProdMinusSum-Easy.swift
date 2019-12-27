@@ -18,15 +18,26 @@
 import Foundation
 
 func subtractProductAndSum(_ n: Int) -> Int {
+    // Cast Int -> String
     let x = "\(n)"
+    
+    // Store Prod/Sum Values
     var prod = 1
     var sum = 0
+    
+    // Use Swift's built in Character via for loop
     for y in x {
+        
+        // Case from Character -> String -> Int
         let a = Int(String(y))
+        
+        // 'a' is an optional, safely unwrap
         guard let b = a else {return 0}
 
+        // Handle Prod/Sum
         prod = prod * b
         sum = sum + b
     }
+    // Return result
     return prod - sum
 }

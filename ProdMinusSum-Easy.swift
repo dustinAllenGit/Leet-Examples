@@ -28,7 +28,7 @@ func subtractProductAndSum(_ n: Int) -> Int {
     // Use Swift's built in Character via for loop
     for y in x {
         
-        // Case from Character -> String -> Int
+        // Cast from Character -> String -> Int
         let a = Int(String(y))
         
         // 'a' is an optional, safely unwrap

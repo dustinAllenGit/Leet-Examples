@@ -15,12 +15,19 @@
 
 // Memory Usage: 20.5 MB, less than 100.00% of Swift online submissions for Defanging an IP Address.
 
+import Foundation
+
 func defangIPaddr(_ address: String) -> String {
+    
+    // Crate mutable string
     var y : String = ""
+    
+    // Use Swift's built in Character type
     for x in address {
+        
+        // Assign y value to result of character
         y = (x == "." ? y + "[.]" : y + String(x))
     }
+    // Return final string
     return y
 }
-
-import Foundation

@@ -5,7 +5,11 @@
 //  Created by Dustin Allen on 12/26/19.
 //
 
-// Given a valid (IPv4) IP address, return a defanged version of that IP address. A defanged IP address replaces every period "." with "[.]".
+/* Excercise Description:
+
+ Given a valid (IPv4) IP address, return a defanged version of that IP address. A defanged IP address replaces every period "." with "[.]".
+ 
+*/
 
 // Runtime: 4 ms, faster than 92.42% of Swift online submissions for Defanging an IP Address.
 

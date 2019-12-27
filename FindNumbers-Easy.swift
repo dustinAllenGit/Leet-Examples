@@ -6,6 +6,12 @@
 //  Copyright © 2019 Pleeder Inc. All rights reserved.
 //
 
+/* Description for excercise:
+ 
+ Given an array nums of integers, return how many of them contain an even number of digits.
+ 
+ */
+
 import Foundation
 
 // Runtime = 40ms, 62.11% faster than Swift submissions as of 12/26/19

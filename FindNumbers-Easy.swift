@@ -1,9 +1,9 @@
 //
 //  FindNumbers-Easy.swift
-//  Layout
+// 
 //
 //  Created by Dustin Allen on 12/26/19.
-//  Copyright © 2019 raywenderlich. All rights reserved.
+//  Copyright © 2019 Pleeder Inc. All rights reserved.
 //
 
 import Foundation

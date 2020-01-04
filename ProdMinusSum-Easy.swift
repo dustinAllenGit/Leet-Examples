@@ -35,8 +35,8 @@ func subtractProductAndSum(_ n: Int) -> Int {
         guard let b = a else {return 0}
 
         // Handle Prod/Sum
-        prod = prod * b
-        sum = sum + b
+        prod *= b
+        sum += b
     }
     // Return result
     return prod - sum

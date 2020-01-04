@@ -20,12 +20,6 @@ import Foundation
 // Preference for Time over Memory in this solution
 func sortedSquares(_ A: [Int]) -> [Int] {
     
-    // Use higher order map to new array with updated values
-    var b = A.map { $0 * $0 }
-    
-    // Use built in sort function, making use of closure short-hand
-    b.sort(by: <)
-    
-    // return sorted array
-    return b
+    // Return map to new array & sort with updated values
+    return A.map { $0 * $0 }.sorted()
 }
